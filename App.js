@@ -11,9 +11,11 @@ import MovieNavigator from "./navigation/MovieNavigator";
 
 //Reducer
 import moviesReducer from './store/reducers/movie';
+import authReducer from './store/reducers/auth';
 
 const rootReducer = combineReducers({
   movies: moviesReducer,
+  auth: authReducer
 });
 
 const store = createStore(rootReducer, applyMiddleware(ReduxThunk));

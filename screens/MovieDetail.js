@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     },
     estatsContainer: {
         width: '100%',
-        backgroundColor: Colors.primary,
+        backgroundColor: 'blue',
         justifyContent: 'center',
         alignItems: 'center',
         shadowColor: 'black',
